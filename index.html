@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <title>Página de Biologia</title>
 </head>
 <body>
     <header>
         <h1>Biologia</h1>
     </header>
-
-    <nav>
-        <ul>
-            <li><a href="pagina1.html">BENEFICIOS</a></li>
-            <li><a href="pagina2.html">PROCESSOS</a></li>
-            <li><a href="pagina3.html">EM CASA</a></li>
-        </ul>
-    </nav>
-
+    <div class="topnav"  id = "myTopnav">
+        <nav>
+            <ul> 
+                <a href="index.html" class = "active">INICIO</a>
+                <a href="pagina1.html">BENEFICIOS</a>
+                <a href="pagina2.html" >PROCESSOS</a>
+                <a href="pagina3.html" >EM CASA</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+            </ul>
+        </nav>
+    </div>
     <main>
         <h2>Bem-vindo à Página de Reciclagem</h2>
         <p>A reciclagem desempenha um papel crucial na preservação do meio ambiente e na redução do impacto ambiental negativo. Nesta página, exploraremos diversos aspectos da reciclagem.</p>
@@ -31,5 +36,6 @@
         <p>Clique nos links acima para aprender mais sobre cada tópico. Junte-se a nós na jornada para um mundo mais sustentável!</p>
     </main>
     </main>
+    <script src="app.js"></script>
 </body>
 </html>
