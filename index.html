@@ -24,18 +24,74 @@
             </ul>
         </nav>
     </div>
-    <main>
+    <main class="flex-content"> 
+        <div id = "intro">
         <h2>Bem-vindo à Página de Reciclagem</h2>
-        <p>A reciclagem desempenha um papel crucial na preservação do meio ambiente e na redução do impacto ambiental negativo. Nesta página, exploraremos diversos aspectos da reciclagem.</p>
+        <p>A reciclagem desempenha um papel crucial na preservação do meio ambiente e na redução do impacto ambiental negativo. Nesta página, exploraremos diversos aspectos da reciclagem.</p> 
         <p>Os tópicos que serão cobertos incluem:</p>
         <ul>
-            <li>Benefícios da Reciclagem</li>
-            <li>Processo de Reciclagem</li>
-            <li>Reciclagem em Casa e na Comunidade</li>
+            <li><a href="#section1">Benefícios da Reciclagem</a></li>
+            <li><a href="#section2">Processo de Reciclagem</a></li>
+            <li><a href="#section3">Reciclagem em Casa e na Comunidade</a></li>
         </ul>
-        <p>Clique nos links acima para aprender mais sobre cada tópico. Junte-se a nós na jornada para um mundo mais sustentável!</p>
+        <p>Clique nos links acima para aprender mais sobre cada tópico. 
+            Junte-se a nós na jornada para um mundo mais sustentável!</p>
+        </div>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+        </div>
+
+        <div id = "section1">
+           <img src="img01.jpg"  id = "myImg" alt="Snow" style="max-width:300px">
+           <article> <p> A reciclagem ajuda a diminuir gastos nas gestões pública e privada.
+                As prefeituras economizam com limpeza urbana, na construção de aterros sanitários e no 
+                tratamento de doenças. Já as indústrias economizam 
+                energia elétrica necessária para fazer novos produtos a partir de matéria-prima bruta.</p>
+                
+            <button id = "button"><a href=" #intro">Voltar</a></button>
+        </article>
+         
+        </div>
+        <div id = "section2">
+            <video width=" 400px " controls>
+                <source src=" A IMPORTÂNCIA DA RECICLAGEM PARA O MEIO AMBIENTE - V1.mp4" type="video/mp4">
+                <source src="A IMPORTÂNCIA DA RECICLAGEM PARA O MEIO AMBIENTE - V1.ogg" type="video/ogg">
+            </video>
+                <p>O processo de reciclagem começa pela separação dos resíduos pelo seu produtor, 
+                passando por um bom gerenciamento da limpeza urbana e terminando nas usinas de reciclagem,
+                onde o material reaproveitável será transformado em nova matéria-prima. Além de preservar o 
+                meio ambiente, gera renda.</p>
+               <p> O processo de reciclagem começa pela separação dos resíduos pelo seu produtor, 
+                passando por um bom gerenciamento da limpeza urbana e terminando nas usinas de reciclagem,
+                onde o material reaproveitável será transformado em nova matéria-prima. Além de preservar o 
+                meio ambiente, gera renda.</p>
+                <p>O processo de reciclagem começa pela separação dos resíduos pelo seu produtor, 
+                passando por um bom gerenciamento da limpeza urbana e terminando nas usinas de reciclagem,
+                onde o material reaproveitável será transformado em nova matéria-prima. Além de preservar o 
+                meio ambiente, gera renda.</p>
+            <button id = "button"><a href=" #intro">Voltar</a></button>
+        </div>
+        <div id = "section3">
+            <p> A quantidade de lixo produzida pelas atividades humanas já é um problema mundial. 
+                Notícias sobre o impacto dos plásticos no meio ambiente, principalmente na vida de animais 
+                marinhos, são frequentes. Uma das soluções mais importantes para esse problema é a reciclagem.
+                Alguns materiais demoram centenas de anos para se decompor, por isso, a conscientização 
+                sobre seu consumo, uso, reaproveitamento e descarte adequado é essencial para construir
+                uma sociedade sustentável. Apesar de as políticas públicas terem um papel fundamental nesse 
+                assunto, você também pode contribuir com a mudança de alguns hábitos.
+                O descarte adequado do lixo e o apoio a cooperativas de reciclagem são algumas ações que 
+                todos podem fazer em sua comunidade.</p>
+            <button id = "button"><a href=" #intro">Voltar</a></button>
+        </div>
+       
     </main>
-    </main>
+    
     <script src="app.js"></script>
+    <footer>
+        <p>footer</p>
+    </footer>
 </body>
 </html>
