@@ -5,19 +5,25 @@
     <meta charset="UTF-8">
     <title>Reciclagem - Beneficios</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 </head>
 <body>
     <header>
         <h1>Reciclagem</h1>
     </header>
-    
-    <nav>
-        <ul>
-            <li><a href="index.html">INICIO</a></li>
-            <li><a href="pagina2.html">PROCESSOS</a></li>
-            <li><a href="pagina3.html">EM CASA</a></li>
-        </ul>
-    </nav>
+    <div class="topnav"  id = "myTopnav">
+        <nav>
+            <ul>
+                <a href="index.html">INICIO</a>
+                <a href="pagina1.html" class = "active">BENEFICIOS</a>
+                <a href="pagina2.html" >PROCESSOS</a>
+                <a href="pagina3.html">EM CASA</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+            </ul>
+        </nav>
+    </div>
 
     <main>
         <h2>Benefícios da Reciclagem</h2>
@@ -27,5 +33,6 @@
         <p>Dicas sobre como as pessoas podem contribuir para a reciclagem em suas comunidades.</p>
         <p>Exemplos de produtos que podem ser reciclados.</p>
     </main>
+    <script src="app.js"></script>
 </body>
 </html>

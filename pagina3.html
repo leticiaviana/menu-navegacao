@@ -5,19 +5,25 @@
     <meta charset="UTF-8">
     <title>Reciclagem - Em casa</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 </head>
 <body>
     <header>
         <h1>Reciclagem</h1>
     </header>
-    
-    <nav>
-        <ul>
-            <li><a href="index.html">INICIO</a></li>
-            <li><a href="pagina1.html">BENEFICIOS</a></li>
-            <li><a href="pagina2.html">PROCESSOS</a></li>
-        </ul>
-    </nav>
+    <div class="topnav"  id = "myTopnav">
+        <nav>
+            <ul>
+                <a href="index.html">INICIO</a>
+                <a href="pagina1.html">BENEFICIOS</a>
+                <a href="pagina2.html">PROCESSOS</a>
+                <a href="pagina3.html" class="active">EM CASA</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </ul>
+        </nav>
+    </div>
 
     <main>
         <h2>Reciclagem em Casa e na Comunidade</h2>
@@ -27,5 +33,6 @@
         <p>Discussão sobre o impacto positivo da reciclagem na economia local.</p>
         <p>Ideias para projetos e iniciativas de reciclagem comunitária.</p>
     </main>
+    <script src="app.js"></script>
 </body>
 </html>
